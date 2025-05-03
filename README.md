@@ -35,22 +35,6 @@ Bu proje, çeşitli matematiksel hesaplamalar için bir dizi fonksiyon sunan Jav
     * **Üçgen Alanı (alandikucgen)**: Bir üçgenin alanını hesaplar.
     * **Daire Alanı (alanyuvarlak)**: Bir çemberin alanını hesaplar.
 
-## 🖥️ **Nasıl Kullanılır**
-
-1. Depoyu klonlayın veya kaynak kodunu indirin.
-2. `matcalculus` ve `Main` sınıflarını içeren Java dosyasını derleyin.
-
-   ```bash
-   javac matcalculus.java Main.java
-   ```
-3. Programı çalıştırın.
-
-   ```bash
-   java Main
-   ```
-
-Program, `Main` sınıfı içerisinde yer alan örneğe göre matematiksel hesaplamalar yapacak ve sonucu ekrana yazdıracaktır.
-
 ## 📝 **Örnek Çıktı**
 
 Eğer `cos(3265)` fonksiyonu çağrılırsa, programın çıktısı şu şekilde olabilir:
