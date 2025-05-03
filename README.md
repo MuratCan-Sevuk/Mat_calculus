@@ -1,68 +1,68 @@
-MatCalculus (Java)
 
-Bu proje, matematiksel hesaplamalar yapmak için geliştirilmiş bir Java sınıfıdır. matcalculus sınıfı, temel aritmetik işlemlerden trigonometri fonksiyonlarına, faktöriyel hesaplamasından geometri alan hesaplamalarına kadar çeşitli fonksiyonlar içerir.
+# Java Matematiksel Hesaplama Kütüphanesi
 
---Özellikler--
+Bu proje, çeşitli matematiksel hesaplamalar için bir dizi fonksiyon sunan Java sınıflarını içermektedir. Aşağıda her bir fonksiyonun işlevselliği açıklanmıştır.
 
-Temel Aritmetik İşlemler: Toplama, çıkarma, çarpma, bölme, üs alma vb.
+## 📋 **Özellikler**
 
-Sayısal İşlemler: Mutlak değer, çift sayıyı kontrol etme, Fibonacci hesaplama.
+1. **Toplama (topla)**: İki sayı veya bir dizideki tüm elemanları toplar.
+2. **Çarpma (carp)**: İki sayıyı çarpar.
+3. **Çıkarma (cikar)**: İki sayıdan birini çıkarır.
+4. **Bölme (bol)**: İki sayıyı böler.
+5. **Çift mi? (ciftmi)**: Bir sayının çift olup olmadığını kontrol eder.
+6. **Mutlak Değer (mutlak)**: Bir sayının mutlak değerini döndürür.
+7. **Fibonacci Sayısı (fibonnaci)**: Fibonacci dizisinin n'inci elemanını döndürür.
+8. **Kare (kare)**: Bir sayının karesini alır.
+9. **Maksimum (maks)**: İki sayıdan büyük olanını döndürür.
+10. **Dizi Maksimum Elemanı (max)**: Bir dizideki en büyük elemanı döndürür.
+11. **Üs Hesaplama (us)**: Bir sayıyı üssüyle hesaplar.
+12. **Obeb (obeb)**: İki sayının ortak bölenlerinin en büyüğünü (obeb) hesaplar.
+13. **Okek (okek)**: İki sayının ortak katlarının en küçüğünü (okek) hesaplar.
+14. **Basit Kök (basitkok)**: Bir sayının kökünü hesaplar.
+15. **Faktöriyel (faktoriyel)**: Bir sayının faktöriyelini hesaplar.
+16. **Trigonometrik Fonksiyonlar**:
 
-Trigonometri Fonksiyonları: Sin, cos, tan, cot, sec, cosec hesaplamaları.
+    * **Cosinus (cos)**: Bir açı için cosinus değerini hesaplar.
+    * **Sinüs (sin)**: Bir açı için sinüs değerini hesaplar.
+    * **Tanjant (tan)**: Bir açı için tanjant değerini hesaplar.
+    * **Kotanjant (cot)**: Bir açı için kotanjant değerini hesaplar.
+    * **Sekant (sec)**: Bir açı için sekant değerini hesaplar.
+    * **Kosekant (cosec)**: Bir açı için kosekant değerini hesaplar.
+17. **Alan Hesaplamaları**:
 
-Geometrik Hesaplamalar: Kare, dikdörtgen, üçgen ve daire alan hesaplamaları.
+    * **Kare Alanı (alankare)**: Bir karenin alanını hesaplar.
+    * **Dörtgen Alanı (alandortgen)**: Bir dörtgenin alanını hesaplar.
+    * **Üçgen Alanı (alandikucgen)**: Bir üçgenin alanını hesaplar.
+    * **Daire Alanı (alanyuvarlak)**: Bir çemberin alanını hesaplar.
 
-Özel Matematiksel İşlemler: OBEB, OKEK, basit karekök hesaplama, faktöriyel hesaplama.
+## 🖥️ **Nasıl Kullanılır**
 
---Kullanım--
+1. Depoyu klonlayın veya kaynak kodunu indirin.
+2. `matcalculus` ve `Main` sınıflarını içeren Java dosyasını derleyin.
 
-1. Temel İşlemler
+   ```bash
+   javac matcalculus.java Main.java
+   ```
+3. Programı çalıştırın.
 
--Toplama
+   ```bash
+   java Main
+   ```
 
-matcalculus mc = new matcalculus();
-System.out.println(mc.topla(5.2f, 3.1f)); // 8.3
+Program, `Main` sınıfı içerisinde yer alan örneğe göre matematiksel hesaplamalar yapacak ve sonucu ekrana yazdıracaktır.
 
--Çarpma
+## 📝 **Örnek Çıktı**
 
-System.out.println(mc.carp(4, 7)); // 28
+Eğer `cos(3265)` fonksiyonu çağrılırsa, programın çıktısı şu şekilde olabilir:
 
--Üs Alma
+```bash
+-0.80901699
+```
 
-System.out.println(mc.us(2, 3)); // 8
+Bu, verilen açı için hesaplanan cosinüs değeridir.
 
-2. Trigonometri İşlemleri
+## ⚙️ **Kullanılan Teknolojiler**
 
--Sinüs Hesaplama
+* Java (JDK 8+)
 
-System.out.println(mc.sin(30)); // 0.5
 
--Kosinüs Hesaplama
-
-System.out.println(mc.cos(60)); // 0.5
-
-3. Geometrik Alan Hesaplamaları
-
--Kare Alanı
-
-System.out.println(mc.alankare(5)); // 25
-
--Dikdörtgen Alanı
-
-System.out.println(mc.alandortgen(4, 6)); // 24
-
--Daire Alanı
-
-System.out.println(mc.alanyuvarlak(3)); // 28.27
-
---Çalıştırma--
-
-Bu sınıfı kullanmak için aşağıdaki adımları takip edebilirsiniz:
-
-matcalculus.java dosyasını indirin veya kopyalayın.
-
-Bir Java derleyicisi veya IDE (IntelliJ, Eclipse, VS Code vb.) kullanarak çalıştırın.
-
---Lisans--
-
-Bu proje MIT lisansı ile lisanslanmıştır. Dilediğiniz gibi kullanabilir ve geliştirebilirsiniz.
